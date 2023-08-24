@@ -2,9 +2,9 @@
 	package service;
 
 public interface InterfaceClass {
-    double withdrawAmount(double amount, int pin);
-    double depositAmount(double amount, int pin);
-    double accountBalance(int pin);
+    abstract public double withdrawAmount(double arg1,double arg2);
+	abstract public double depositAmount(double arg1,double arg2);
+	abstract public double accountBalance(double arg1);
 }
 
 

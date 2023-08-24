@@ -6,14 +6,14 @@ public class AccountDetails {
     private double availableBalance;
     private int pin;
 
-    // Constructor
+    
     public AccountDetails(String accountType, double availableBalance, int pin) {
         this.accountType = accountType;
         this.availableBalance = availableBalance;
         this.pin = pin;
     }
 
-    // Getters and Setters
+
     public String getAccountType() {
         return accountType;
     }
